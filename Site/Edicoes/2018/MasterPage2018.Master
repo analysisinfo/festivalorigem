@@ -1,0 +1,58 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage2018.master.cs" Inherits="festivalOrigens.Edicoes._2018.MasterPage2018" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>Festival Origens</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="theme-color" content="#1d110a">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine|Lora">
+    <link href="../../Componentes/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="../../Componentes/css/lightbox.min.css" />
+    <link rel="stylesheet" href="../../Componentes/css/animate.min.css" />
+    <link rel="stylesheet" href="../../Componentes/css/app3cc5.css?v=1.6" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <nav class="navbar fixed-top navbar-expand-lg navbar-light" id="main">
+            <div class="container">
+                <a class="navbar-brand logo-navigation" href="../../Formularios/index.aspx">
+                    <img src="../../Componentes/images/logo-navigation.png" /></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item"><a class="nav-link" href="index.aspx#editions">Edições</a></li>
+                        <li class="nav-item"><a class="nav-link" href="index.aspx#introduction">O Evento</a></li>
+                        <li class="nav-item" style="display:none"><a class="nav-link" href="programacao.aspx">Programação</a></li>
+                        <li class="nav-item"><a class="nav-link" href="index.aspx#partners">Parceiros</a></li>
+                        <li class="nav-item"><a class="nav-link" href="blog.aspx">Blog</a></li>
+                        <li class="nav-item"><a class="nav-link" href="https://www.instagram.com/festivalorigens/" target="_blank">Instagram</a></li>
+                        <li class="nav-item"><a class="nav-link" href="../../Formularios/Galeria.aspx">Galeria</a></li>
+                        <li class="nav-item"><a class="nav-link" href="../../Formularios/Contato.aspx">Contato</a></li>
+                        <li class="nav-item" style="display:none"><a class="nav-link" href="../../AreaRestrita/Formularios/ingressos.aspx">Ingressos</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+<script type="text/javascript" src="../../Componentes/js/jquery.min.js"></script>
+<script type="text/javascript" src="../../Componentes/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="../../Componentes/js/lightbox.min.js"></script>
+<script type="text/javascript" src="../../Componentes/js/paraxify.min.js"></script>
+<script type="text/javascript" src="../../Componentes/js/wow.min.js"></script>
+<script type="text/javascript" src="https://unpkg.com/vue"></script>
+<script type="text/javascript" src="../../Componentes/js/app2a21.js?v=1.3.2"></script>
+</html>
